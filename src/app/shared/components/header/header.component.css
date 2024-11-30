@@ -1,0 +1,39 @@
+.navbar{
+    background:url(nav2.jpg) ;
+    display: flex; 
+}
+a {
+    color:#CD5B0D !important;   
+    text-decoration: none !important;
+    padding-left: 60px;   
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+a:hover{
+    color: black !important;
+}
+.dropdown-item{
+    color:#CD5B0D !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.right ul {
+    list-style: none;
+    display: flex;
+    padding-top:10px ;
+
+}
+.brands ul li a i {
+    color: #cd5b0d; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands ul li a:hover i.fa-user {
+    color: rgb(0, 0, 0) !important;
+}
+
+.brands ul li a:hover i.fa-bag-shopping {
+    color: rgb(0, 0, 0) !important;
+}

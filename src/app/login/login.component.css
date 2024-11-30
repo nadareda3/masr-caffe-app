@@ -1,0 +1,15 @@
+
+.container{
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+.btn{
+    color: white !important;
+    /* border:#cd5b0d solid 2px; */
+    background-color: #cd5b0d;
+      cursor: pointer;
+
+  }
+  h2{
+    color: #cd5b0d;
+  }

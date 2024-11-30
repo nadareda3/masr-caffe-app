@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <h2>Your Cart</h2>
+  <div *ngIf="cartItems.length === 0">
+    <p>Your cart is empty.</p>
+  </div>
+  <div *ngIf="cartItems.length > 0">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of cartItems">
+        <div class="card mb-3">
+          <img [src]="item.image" class="card-img-top" alt="{{ item.desc }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.brand }}</h5>
+            <p class="card-text">{{ item.desc }}</p>
+            <p class="card-text">Price: {{ item.price }}</p>
+            <p class="card-text"><span class="quantity">Quantity:</span> {{ item.quantity }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h4>Total Price: {{ totalPrice }} EGP</h4>
+    <button class="btn btn-danger" (click)="clearCart()">Clear Cart</button>
+  </div>
+</div>
+

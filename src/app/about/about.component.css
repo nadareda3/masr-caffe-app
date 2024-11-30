@@ -1,0 +1,32 @@
+.section1 {
+    background-image: url(Picture1.png);
+    width: 1519px;
+    height: 90vh;
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+.section2{
+    text-align: center;
+    
+}
+h4{
+    font-size: 30px;
+    font-family:serif;
+
+    
+
+}
+p{
+    font-size: 20px;
+    color: rgb(92, 82, 82);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+hr{
+    width: 500px;
+    margin-left: 109px;
+}

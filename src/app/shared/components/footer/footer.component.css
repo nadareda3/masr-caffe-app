@@ -1,0 +1,67 @@
+.section4{
+    background-image: url("https://img.freepik.com/premium-photo/closeup-roasted-coffee-beans_343170-9731.jpg?w=1060");
+    width: 1519px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+
+
+}
+span{
+    color: #CD5B0D;
+    font-size: 21px;
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 10px;
+
+
+
+
+}
+.footer ul{
+    margin-left: 40px;
+    padding-left: 180px;
+
+
+}
+.footer ul li {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    text-align: left;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.footer ul li a:hover{
+    color: #CD5B0D;
+    text-decoration: none;
+
+}
+.footer ul li a i {
+    color: white;
+
+}
+
+.footer ul li a:hover i.fa-facebook {
+    color:#CD5B0D!important;
+}
+
+.footer ul li a:hover i.fa-instagram {
+    color:#CD5B0D!important;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+
+}

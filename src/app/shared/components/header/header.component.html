@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand">
+  <div class="container">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar nav-item nav">
+          <li>
+              <a href="/home">HOME</a>
+            </li>
+        <li class="dropdown">
+          <a class=" dropdown-item" href="/coffee">COFFEE</a>
+        </li>
+
+        <li class="dropdown">
+          <a class=" dropdown-item" href="#">MACHINE</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/machines">Home</a></li>
+            <li><a class="dropdown-item" href="/machinery">Commerical</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class=" dropdown-item" href="/tools">TOOLS</a>
+        </li>
+
+        <li class="dropdown">
+          <a class=" dropdown-item" href="/other">CupWares</a>
+        </li>
+      </ul>
+    </div>
+
+        <div class="right">
+          <ul>
+        <li><a routerLink="register"><i class="fa-solid fa-user" style="color: #cd5b0d;"></i>  Account</a></li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="cart"><i class="fa-solid fa-cart-plus"></i>{{ cartItemCount }}</a> <!-- Display cart count -->
+        </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+

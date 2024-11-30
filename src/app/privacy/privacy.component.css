@@ -1,0 +1,12 @@
+.section1 {
+    background-image: url(Picture6.png);
+    width: 1519px;
+    height: 100vh;
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+.container{
+    width: 900px;
+    padding-top: 50px;
+}

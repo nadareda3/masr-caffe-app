@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="row mt-5 ">
+    <div class="col-md-3  mt-5 card p-4 m-5 d-flex justify-content-center " *ngFor="let product of dataContainer">
+      <div class="card h-100">
+        <a class="d-flex justify-content-center" href="#"><img [src]="product.image" class="imgW"
+            alt="{{product.desc}}"></a>
+        <div class="card-body text-center">
+          <p class="mt-3 desc">{{product.desc}}</p>
+          <h4>{{product.brand}}</h4>
+          <h6>{{product.price}}</h6>
+
+          <div class="btn btn-bg" (click)="addToCart(product)">Add to Cart</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
